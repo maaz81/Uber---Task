@@ -18,7 +18,6 @@ const AdminPanel = () => {
                     return;
                 }
 
-                // Then fetch rides
                 const [jsonRes, dbRes] = await Promise.all([
                     axios.get('http://localhost:5000/api/rides/all', { withCredentials: true }),
                     axios.get('http://localhost:5000/api/rides/db', { withCredentials: true })

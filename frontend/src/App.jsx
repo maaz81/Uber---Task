@@ -10,11 +10,11 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomeRedirect />} />      {/* 👈 Auto redirect here */}
-        <Route path="/book" element={<BookRide />} />       {/* 👤 For normal users */}
+        <Route path="/" element={<HomeRedirect />} />      
+        <Route path="/book" element={<BookRide />} />       
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/admin" element={<AdminPanel />} />    {/* 🧑‍💻 For admin only */}
+        <Route path="/admin" element={<AdminPanel />} />    
       </Routes>
     </Router>
   );
