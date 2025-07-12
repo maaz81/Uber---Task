@@ -1,0 +1,193 @@
+[
+  {
+    "pickup": "Madhapur",
+    "drop": "Gachibowli",
+    "payMethod": "cash",
+    "status": "completed",
+    "payStatus": "paid",
+    "time": "2025-07-10T12:00:00Z",
+    "user": {
+      "name": "Maaz Khan",
+      "email": "maaz@example.com"
+    },
+    "driver": {
+      "name": "Raj Verma",
+      "phone": "9876543210",
+      "vehicle": "WagonR",
+      "number": "TS09AB1234",
+      "rating": 4.7
+    }
+  },
+  {
+    "pickup": "Kondapur",
+    "drop": "Hitech City",
+    "payMethod": "card",
+    "status": "requested",
+    "payStatus": "not paid",
+    "time": "2025-07-11T08:30:00Z",
+    "user": {
+      "name": "Ayesha Fatima",
+      "email": "ayesha@example.com"
+    },
+    "driver": {
+      "name": "Amit Singh",
+      "phone": "9012345678",
+      "vehicle": "Honda City",
+      "number": "TS10DL6789",
+      "rating": 4.9
+    }
+  },
+  {
+    "pickup": "Banjara Hills",
+    "drop": "Mehdipatnam",
+    "payMethod": "cash",
+    "status": "completed",
+    "payStatus": "paid",
+    "time": "2025-07-09T14:20:00Z",
+    "user": {
+      "name": "Rohit Sharma",
+      "email": "rohit@example.com"
+    },
+    "driver": {
+      "name": "Sana Iqbal",
+      "phone": "9234567890",
+      "vehicle": "Swift",
+      "number": "TS11MQ4567",
+      "rating": 4.6
+    }
+  },
+  {
+    "pickup": "Begumpet",
+    "drop": "Ameerpet",
+    "payMethod": "cash",
+    "status": "completed",
+    "payStatus": "paid",
+    "time": "2025-07-11T10:45:00Z",
+    "user": {
+      "name": "Fatima Noor",
+      "email": "fatima@example.com"
+    },
+    "driver": {
+      "name": "Zubair Khan",
+      "phone": "9345678901",
+      "vehicle": "i10",
+      "number": "TS06BF7654",
+      "rating": 4.4
+    }
+  },
+  {
+    "pickup": "Jubilee Hills",
+    "drop": "Hitech City",
+    "payMethod": "card",
+    "status": "cancelled",
+    "payStatus": "not paid",
+    "time": "2025-07-10T09:00:00Z",
+    "user": {
+      "name": "Ishaan Malik",
+      "email": "ishaan@example.com"
+    },
+    "driver": {
+      "name": "Kiran Reddy",
+      "phone": "9456789012",
+      "vehicle": "Baleno",
+      "number": "TS04HR1234",
+      "rating": 4.2
+    }
+  },
+  {
+    "pickup": "Habsiguda",
+    "drop": "Charminar",
+    "payMethod": "cash",
+    "status": "completed",
+    "payStatus": "paid",
+    "time": "2025-07-08T13:15:00Z",
+    "user": {
+      "name": "Neha Agarwal",
+      "email": "neha@example.com"
+    },
+    "driver": {
+      "name": "Deepak Mehta",
+      "phone": "9567890123",
+      "vehicle": "Indica",
+      "number": "TS05GK2345",
+      "rating": 4.0
+    }
+  },
+  {
+    "pickup": "Lakdikapul",
+    "drop": "Koti",
+    "payMethod": "card",
+    "status": "requested",
+    "payStatus": "not paid",
+    "time": "2025-07-11T07:30:00Z",
+    "user": {
+      "name": "Farhan Sheikh",
+      "email": "farhan@example.com"
+    },
+    "driver": {
+      "name": "Anjali Rao",
+      "phone": "9678901234",
+      "vehicle": "Tiago",
+      "number": "TS09LR7890",
+      "rating": 4.8
+    }
+  },
+  {
+    "pickup": "Secunderabad",
+    "drop": "Malkajgiri",
+    "payMethod": "cash",
+    "status": "completed",
+    "payStatus": "paid",
+    "time": "2025-07-07T16:50:00Z",
+    "user": {
+      "name": "Zainab Ali",
+      "email": "zainab@example.com"
+    },
+    "driver": {
+      "name": "Ravi Shankar",
+      "phone": "9789012345",
+      "vehicle": "Alto",
+      "number": "TS03AB6789",
+      "rating": 4.1
+    }
+  },
+  {
+    "pickup": "Lingampally",
+    "drop": "KPHB",
+    "payMethod": "cash",
+    "status": "completed",
+    "payStatus": "paid",
+    "time": "2025-07-06T11:10:00Z",
+    "user": {
+      "name": "Divya Joshi",
+      "email": "divya@example.com"
+    },
+    "driver": {
+      "name": "Mohd Salman",
+      "phone": "9890123456",
+      "vehicle": "Celerio",
+      "number": "TS02CN5678",
+      "rating": 4.3
+    }
+  },
+  {
+    "pickup": "Tarnaka",
+    "drop": "LB Nagar",
+    "payMethod": "card",
+    "status": "requested",
+    "payStatus": "not paid",
+    "time": "2025-07-11T06:20:00Z",
+    "user": {
+      "name": "Ritu Verma",
+      "email": "ritu@example.com"
+    },
+    "driver": {
+      "name": "Sunil Yadav",
+      "phone": "9901234567",
+      "vehicle": "Dzire",
+      "number": "TS01AZ4567",
+      "rating": 4.6
+    }
+  }
+]
+
