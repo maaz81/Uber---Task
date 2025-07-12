@@ -18,7 +18,6 @@ const createRide = async (req, res) => {
       driver: assignedDriver
     });
 
-    // Optional: link ride in user doc if needed
     await User.findByIdAndUpdate(req.user._id, {
       $push: { rides: newRide._id }
     });

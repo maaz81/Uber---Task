@@ -7,7 +7,7 @@ const checkAdmin = require('../middleware/checkAdmin');
 router.post('/signup', signup);
 router.post('/login', login);
 router.get('/logout', logout);
-router.get('/me', protect, getmyRide);                  // For any logged-in user
-router.get('/admin/me', protect, checkAdmin, getmyRide); // Optional: admin only route
+router.get('/me', protect, getmyRide);                  
+router.get('/admin/me', protect, checkAdmin, getmyRide); 
 
 module.exports = router;

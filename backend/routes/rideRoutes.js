@@ -7,11 +7,11 @@ const {
   getAllRidesFromDB
 } = require('../controllers/rideController');
 const protect = require('../middleware/authMiddleware');
-const checkAdmin = require('../middleware/checkAdmin'); // ✅ FIXED
+const checkAdmin = require('../middleware/checkAdmin'); 
 
-router.post('/', protect, createRide);         // Book a ride (user)
-router.get('/', protect, getRides);            // User's own rides
-router.get('/all', protect, checkAdmin, getAllRides);  // Admin view only
+router.post('/', protect, createRide);         
+router.get('/', protect, getRides);           
+router.get('/all', protect, checkAdmin, getAllRides);  
 router.get('/db', protect, checkAdmin, getAllRidesFromDB);
 
 module.exports = router;

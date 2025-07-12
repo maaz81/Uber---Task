@@ -62,7 +62,7 @@ const getmyRide = async (req, res) => {
 const logout = async (req, res) => {
   res.clearCookie('token', {
     httpOnly: true,
-    secure: false, // set true in production (HTTPS)
+    secure: false, 
     sameSite: 'Lax'
   });
   res.json({ message: 'Logged out successfully' });
